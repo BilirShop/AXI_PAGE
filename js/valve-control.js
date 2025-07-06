@@ -203,6 +203,6 @@ createApp({
   </div>
   `,
   components: {
-    draggable: window.vuedraggable,
+    draggable: window.vuedraggable || window.VueDraggableNext,
   },
 }).mount('#app');
